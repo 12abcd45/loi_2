@@ -216,7 +216,7 @@
 						d=document.createElement('div');
 						d.style.position = "absolute";
 						d.style.left = 250+'px';
-						d.style.top = 150+(answer[i][j]*50)+'px';
+						d.style.top = 125+(answer[i][j]*50)+'px';
 						d.innerHTML="(0,"+answer[i][j]+")";
 						document.getElementById('content').appendChild(d);
 							var cssSelector = await anime({
@@ -235,7 +235,7 @@
 						d=document.createElement('div');
 						d.style.position = "absolute";
 						d.style.left = 250+(answer[i][j-1]*50)+'px';
-						d.style.top = 150+(answer[i][j]*50)+'px';
+						d.style.top = 125+(answer[i][j]*50)+'px';
 						d.innerHTML="("+answer[i][j-1]+","+answer[i][j]+")";
 						document.getElementById('content').appendChild(d);
 						var cssSelector = await anime({
@@ -269,7 +269,7 @@
 							d=document.createElement('div');
 							d.style.position = "absolute";
 							d.style.left = 250+(answer[i][j-1]*50)+'px';
-							d.style.top = 150+(answer[i][j]*50)+'px';
+							d.style.top = 125+(answer[i][j]*50)+'px';
 							d.innerHTML="("+answer[i][j-1]+","+answer[i][j]+")";
 							document.getElementById('content').appendChild(d);
 							var cssSelector = await anime({
